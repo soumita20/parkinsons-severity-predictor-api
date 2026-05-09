@@ -51,6 +51,8 @@ equipment. It accepts 19 voice and demographic features and returns:
 
 ## Architecture
 
+```
+
 Voice Measurements + Demographics
 │
 ▼
@@ -66,7 +68,7 @@ Voice Measurements + Demographics
 [SHAP Explainability]
 individual feature contributions per prediction
 
----
+```
 
 ## Dataset
 
@@ -133,10 +135,11 @@ group to isolate the true voice signal from age-related decline.
 
 ## Project Structure
 
+```
 parkinsons-severity-predictor/
 ├── data/                          # Raw dataset (not committed)
 ├── notebooks/
-│   └── model_exploration.ipynb    # EDA + model comparison + SHAP
+│   └── parkinsons.ipynb    # EDA + model comparison + SHAP
 ├── src/
 │   ├── init.py
 │   ├── preprocess.py              # Data loading + StandardScaler
@@ -148,7 +151,7 @@ parkinsons-severity-predictor/
 ├── Dockerfile                     # Container definition
 └── README.md
 
----
+```
 
 ## Quick Start
 
