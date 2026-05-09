@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Saved models — too large for GitHub
+models/*.pkl
+models/*.h5
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data — raw data not committed
+data/
+
+# Environment variables
+.env
+
+#Other text files
+notes.txt
