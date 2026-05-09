@@ -252,12 +252,9 @@ docker run -p 8000:8000 parkinsons-severity-predictor
 
 ## Roadmap
 
-- [ ] Patient-level train/test split to address data leakage
 - [ ] Age-adjusted models to isolate voice signal
-- [ ] Confidence intervals for predictions
 - [ ] Interactive frontend with sliders for each voice feature
-- [ ] Model card with full clinical limitations
-- [ ] Multimodal extension — gait + handwriting features
+- [ ] Multimodal extension — handwriting features
 
 ---
 
